@@ -1,0 +1,308 @@
+
+>>> country = 'bangla'+'desh'
+>>> country
+'bangladesh'
+>>> len(country)
+10
+>>> country.replace('bangladesh', 'INDIA')
+'INDIA'
+>>> country
+'bangladesh'
+>>> new_country=country.replace('i', 'I')
+>>> new_country
+'bangladesh'
+>>> str='bcd'
+>>> str
+'bcd'
+>>> str='  bcd  '
+>>> str
+'  bcd  '
+>>> str=str.strip()
+>>> str
+'bcd'
+>>> str.lstrip()
+'bcd'
+>>> str='a b c     d  '
+>>> str.lstrip()
+'a b c     d  '
+>>> str.strip()
+'a b c     d'
+>>> str.rstrip()
+'a b c     d'
+>>> 
+>>> 
+>>> str='ABcdEF'
+>>> str.upper()
+'ABCDEF'
+>>> 
+>>> str.lower()
+'abcdef'
+>>> 
+>>> str
+'ABcdEF'
+>>> 
+>>> 
+>>> str1='Bangla'
+>>> str2='Desh'
+>>> str1,str2
+('Bangla', 'Desh')
+>>> str2,str1
+('Desh', 'Bangla')
+>>> str1,str2=str2,str1
+>>> str1
+'Desh'
+>>> str2
+'Bangla'
+>>> str1,str2
+('Desh', 'Bangla')
+>>> #how to reverse in python ?
+>>> 
+>>> 
+>>> 
+>>> #LIST(TOPIC)
+>>> li=['lamp','table','cell phone','pen',stapler]
+
+
+>>> li=['lamp','table','cell phone','pen','stapler']
+>>> li
+['lamp', 'table', 'cell phone', 'pen', 'stapler']
+>>> type(li)
+<type 'list'>
+>>> len(li)
+5
+>>> li[1]
+'table'
+>>> li[3]
+'pen'
+>>> li[]
+SyntaxError: invalid syntax
+>>> li[0]
+'lamp'
+>>> li[-1]
+'stapler'
+>>> li[-2]
+'pen'
+>>> li[-4]
+'table'
+>>> 
+>>> li2=['Bangladesh',100,3.5,'laptop']
+>>> type(li2[2])
+<type 'float'>
+>>> type(li2[0])
+<type 'str'>
+>>> type(li2[2])
+<type 'float'>
+>>> li2[0:2]
+['Bangladesh', 100]
+>>> li[0:3]
+['lamp', 'table', 'cell phone']
+>>> li[0:4]
+['lamp', 'table', 'cell phone', 'pen']
+>>> li[0:4:2]
+['lamp', 'cell phone']
+>>> li[0:2:3]
+['lamp']
+>>> li[0:2:4]
+['lamp']
+>>> li[0:4:3]
+['lamp', 'pen']
+>>> li[::=1]
+SyntaxError: invalid syntax
+>>> li[::-1]
+['stapler', 'pen', 'cell phone', 'table', 'lamp']
+>>> li[::1]
+['lamp', 'table', 'cell phone', 'pen', 'stapler']
+>>> li[2]
+'cell phone'
+>>> li[2]='mobile phone'
+>>> li[2]
+'mobile phone'
+>>> li=li+['pencil']
+>>> li
+['lamp', 'table', 'mobile phone', 'pen', 'stapler', 'pencil']
+>>> li[5]
+'pencil'
+>>> li[5]=Pincil
+
+Traceback (most recent call last):
+  File "<pyshell#74>", line 1, in <module>
+    li[5]=Pincil
+NameError: name 'Pincil' is not defined
+>>> li[5]='Pencil'
+>>> li
+['lamp', 'table', 'mobile phone', 'pen', 'stapler', 'Pencil']
+>>> li=li+'ruber'
+
+
+>>> li=li+['ruber']
+>>> li
+['lamp', 'table', 'mobile phone', 'pen', 'stapler', 'Pencil', 'ruber']
+>>> 
+>>> 
+>>> 
+>>> #conditional logic
+>>> 
+>>> 
+>>> true
+
+
+>>> True
+True
+>>> Fllse
+
+
+>>> False
+False
+>>> type(True)
+<type 'bool'>
+>>> type(False)
+<type 'bool'>
+>>> bool(True)
+True
+>>> bool(True/False)
+
+>>> bool(0)
+False
+>>> bool(1)
+True
+>>> bool(2)
+True
+>>> bool(3)
+True
+>>> bool(4)
+True
+>>> bool(-1)
+True
+>>> bool(75)
+True
+>>> bool(0.0000)
+False
+>>> bool(0*10)
+False
+>>> bool(0.00000001)
+True
+>>> bool(' ')
+True
+>>> bool(hello)
+
+
+>>> bool('hello')
+True
+>>> bool('')
+False
+>>> bool([])
+False
+>>> bool(1,2,3)
+
+
+>>> bool([1,2,3])
+True
+>>> a = True
+>>> 
+>>> a
+True
+>>> Not a
+SyntaxError: invalid syntax
+>>> not a
+False
+>>> b=False
+>>> b
+False
+>>> not b
+True
+>>> a and b
+False
+>>> a or b
+True
+>>> li=[1,2,3,4]
+>>> 3 in li
+True
+>>> 6 in li
+False
+>>> li1=['a','b','c','d','e']
+>>> li1
+['a', 'b', 'c', 'd', 'e']
+>>> type('f')
+<type 'str'>
+>>> f in li1
+
+
+>>> f in li1
+
+>>> 'f' in li1
+False
+>>> 'a' in li1
+True
+>>> 
+>>> #IF/ELSE
+>>> 
+>>> a=5
+>>> b=-3
+>>> c=0
+>>> a,b,c
+(5, -3, 0)
+>>> if a>0:
+	print 'a positive'
+
+	
+a positive
+>>> if b>0
+SyntaxError: invalid syntax
+>>> if b>0:
+	print 'b positive'
+
+	
+>>> 
+>>> if c==0:
+	print 'zero'
+
+	
+zero
+>>> if c>0:
+	print 'c negetive'
+
+	
+>>> if b <0:
+	print 'c negetive'
+
+	
+c negetive
+>>> if b<0:
+	print 'b positive'
+
+	
+b positive
+>>> a>b
+True
+>>> a<b
+False
+>>> a>=b
+True
+>>> a,b,c
+(5, -3, 0)
+>>> a<=b
+False
+>>> a>b<c
+True
+>>> a<b>c
+False
+>>> a!=b
+True
+>>> if b<0:
+	print 'b negative'
+	else:
+		
+SyntaxError: invalid syntax
+>>> if b<0:
+	print 'b negative'
+	else:
+		
+SyntaxError: invalid syntax
+>>> if b<0:
+	print 'b negative'
+	else: print 'b not negative'
+	
+SyntaxError: invalid syntax
+>>> 
+>>> 
+>>> 
