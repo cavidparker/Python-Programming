@@ -12,3 +12,8 @@ for x in item:
 item = ["banana","apple","orange"]
 if "apple" in item:
   print("Yes, 'apple' is in the list")
+  
+#Insert an item as the second position:
+item = ["banana","apple","orange"]
+item.insert(1,"cherry")
+print(item)
