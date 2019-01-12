@@ -7,3 +7,8 @@ print(x)
 item = ["banana","apple","orange"]
 for x in item:
  print(x)
+
+#Check if "apple" is present in the list:
+item = ["banana","apple","orange"]
+if "apple" in item:
+  print("Yes, 'apple' is in the list")
