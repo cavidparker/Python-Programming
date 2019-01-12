@@ -17,3 +17,8 @@ if "apple" in item:
 item = ["banana","apple","orange"]
 item.insert(1,"cherry")
 print(item)
+
+#The remove() method removes the specified item:
+thislist = ["apple", "banana", "cherry"]
+thislist.remove("banana")
+print(thislist)
