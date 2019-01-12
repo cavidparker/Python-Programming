@@ -1,0 +1,9 @@
+#Change the second item:
+x = ["banana","apple","orange"]
+x[1] = "mango"
+print(x)
+
+#Print all items in the list, one by one:
+item = ["banana","apple","orange"]
+for x in item:
+ print(x)
