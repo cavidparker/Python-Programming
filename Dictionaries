@@ -1,0 +1,9 @@
+#Create and print a dictionary:
+car = {
+    "brand":"Ford",
+    "model":"mustang",
+    "year":1996
+}
+print(car)
+
+
