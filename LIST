@@ -37,3 +37,8 @@ x = ["apple","orange","banana"]
 x[1] = "apple"
 x[0] = "orange"
 print(x)
+
+#use Stive
+x = "Hello"
+stive=list(x)
+print (stive) 
