@@ -1,0 +1,6 @@
+#Print each fruit in a fruit list:
+x = ["banana","apple","cherry"]
+for fruits in x:
+ print(fruits)
+ 
+ 
