@@ -19,3 +19,17 @@ for x in fruits:
     break
   print(x) 
  
+#Do not print banana:
+fruits = ["apple", "banana", "cherry"]
+for x in fruits:
+  if x == "banana":
+    continue
+  print(x)
+ 
+#Using the range() function:
+for x in range(10):
+    print(x)
+    
+#Using the start parameter:
+for x in range(2,10):
+    print(x)
