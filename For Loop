@@ -3,6 +3,7 @@ x = ["banana","apple","cherry"]
 for fruits in x:
  print(fruits)
  
+
 #Exit the loop when x is "banana":
 fruits = ["banana","apple","cherry"]
 fruits[0] = "apple"
@@ -12,6 +13,7 @@ for x in fruits:
     if x=="banana":
         break
 
+
 #Exit the loop when x is "banana", but this time the break comes before the print:
 fruits = ["apple", "banana", "cherry"]
 for x in fruits:
@@ -19,6 +21,7 @@ for x in fruits:
     break
   print(x) 
  
+
 #Do not print banana:
 fruits = ["apple", "banana", "cherry"]
 for x in fruits:
@@ -26,10 +29,33 @@ for x in fruits:
     continue
   print(x)
  
+
 #Using the range() function:
 for x in range(10):
     print(x)
     
+
 #Using the start parameter:
 for x in range(2,10):
     print(x)
+
+
+#Increment the sequence with 3 (default is 1):
+for x in range(2,30,3):
+    print(x)
+    
+
+#Print all numbers from 0 to 10, and print a message when the loop has ended:  
+for x in range(10):
+    print(x)
+else:
+    print("Finised")
+
+
+
+#Print each adjective for every fruit:(Nested Loops)
+fruits = ["apple","banana","cherry"]
+color =["red","yellow","green"]
+for x in fruits:
+    for y in color:
+        print(x,y)
