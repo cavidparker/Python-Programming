@@ -45,3 +45,14 @@ x = car.get("year")
 for y in car:
     print(y)
     
+
+#Print all values in the dictionary, one by one:
+car = {
+    "brand":"Ford",
+    "model":"mustang",
+    "year":1996
+}
+car["year"]=2019
+x = car.get("year")
+for y in car:
+    print(car[y])
