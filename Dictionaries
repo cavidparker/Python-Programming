@@ -6,4 +6,31 @@ car = {
 }
 print(car)
 
+#Get the value of the "model" key:
+car = {
+    "brand":"Ford",
+    "model":"mustang",
+    "year":1996
+}
+x = car["model"]
+print(x)
+
+#There is also a method called get() that will give you the same result:
+car = {
+    "brand":"Ford",
+    "model":"mustang",
+    "year":1996
+}
+x = car.get("brand")
+print(x)
+
+#Change the "year" to 2019:
+car = {
+    "brand":"Ford",
+    "model":"mustang",
+    "year":1996
+}
+car["year"]=2019
+x = car.get("year")
+print(x)
 
