@@ -3,4 +3,14 @@ x = ["banana","apple","cherry"]
 for fruits in x:
  print(fruits)
  
+#Exit the loop when x is "banana":
+fruits = ["banana","apple","cherry"]
+fruits[0] = "apple"
+fruits[1] = "banana"
+for x in fruits:
+    print(x)
+    if x=="banana":
+        break
+
+ 
  
