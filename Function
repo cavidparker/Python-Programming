@@ -1,0 +1,8 @@
+#The following example shows how to use a default parameter value.
+
+def my_function(country = " Norway"):
+    print("i am from" + country)
+my_function  (" Sweden")
+my_function  (" Bangladesh")
+my_function()
+
